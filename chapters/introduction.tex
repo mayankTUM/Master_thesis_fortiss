@@ -2,17 +2,28 @@
 
 \section{Background}
 
-Safety-Critical systems may hold several definitions but the intuitive notion behind them is the consequences of failures. Failure of such systems may lead to loss of life, potential damage of property or damage to the environment~\cite{Knight:2002:SCS:581339.581406}. As far as safety-critical embedded systems are concerned, ensuring functional safety in terms of freedom from unacceptable risk of physical injury or damage to the health of people, is of prime importance. 
+Safety-Critical systems may hold several definitions but the intuitive notion behind them is the consequences of failures. Failure of such systems may lead to loss of life, potential damage of property or damage to the environment~\cite{Knight:2002:SCS:581339.581406}. As far as safety-critical embedded systems are concerned, ensuring functional safety in terms of freedom from unacceptable risk of physical injury or damage to the health of people, is of prime importance.\\
 
-An essential design step during the engineering of Safety-Critical and Reliable embedded systems is the mapping of software components on the underlying hardware architecture, respecting various resource constraints and safety level requirements. During this phase, called the Design Space Exploration(DSE), designers have to decide between many design alternatives, representing a multi-criteria decision problem. Various national and international research projects are exploring new possibilities to automate this phase in the development process of embedded systems.
+An essential design step during the engineering of Safety-Critical and Reliable embedded systems is the mapping of software components on the underlying hardware architecture, respecting various resource constraints and safety level requirements. During this phase, called the Design Space Exploration(DSE), designers have to decide between many design alternatives, representing a multi-criteria decision problem. Various national and international research projects are exploring new possibilities to automate this phase in the development process of embedded systems.\\
 
-Developing Safety-Critical embedded systems requires developers to use certain tools and development techniques as suggested by appropriate standards. One such standard is ISO 26262, that ensures functional safety of electrical and electronic systems in road vehicles. Recent innovations in automotive domain such as Driver Assistance Systems, Break-By-Wire Systems and Steer-By-Wire Systems, have led to an increase in technological complexity of electrical and electronic systems for road vehicles. Therefore, ensuring the safe and reliable operation of such systems is becoming demanding everyday. 
+Developing Safety-Critical embedded systems requires developers to use certain tools and development techniques as suggested by appropriate standards. One such standard is ISO 26262, that ensures functional safety of electrical and electronic systems in road vehicles. Recent innovations in automotive domain such as Driver Assistance Systems, Break-By-Wire Systems and Steer-By-Wire Systems, have led to an increase in technological complexity of electrical and electronic systems for road vehicles. Therefore, ensuring the safe and reliable operation of such systems is becoming demanding everyday.\\
 
-AUTOFOCUS3, developed at Fortiss GmbH, is one such research CASE tool that provides the functionality of generating deployments and schedules for mixed-critical shared-memory embedded systems. Extending the deployment and schedule generation functionality of AUTOFOCUS3 with the safety metrics identified in ISO 26262 and various resource constraints such as memory, power consumption etc., will help us generate more safe and reliable deployments used in safety-critical embedded systems.
+AUTOFOCUS3, developed at Fortiss GmbH, is one such research CASE tool that provides the functionality of generating deployments and schedules for mixed-critical shared-memory embedded systems~\cite{6601578}. Extending the deployment and schedule generation functionality of AUTOFOCUS3 with the safety metrics identified in ISO 26262 and various resource constraints such as memory, power consumption etc., will help us generate more safe and reliable deployments used in safety-critical embedded systems.\\
 
-NEED TO PUT SOMETHING FOR COST
+However, a pragmatic system with a large design space, may lead to multiple deployments that satisfy various deployment constraints. It is, therefore, desirable to have some optimization criteria that further reduces the design space and leads to optimal deployments.\\ 
+
+One part of the thesis extends AUTOFOCUS3's deployment and schedule generation process with safety metrics and resource constraints, while the other part uses different MOO algorithms that optimizes multiple criteria (number of nodes, memory per node, power consumption, etc.) to yield an optimal (pareto-optimal) deployment.
+
 
 \section{Problem Statement}
+
+The AUTOFOCUS3 group, at Fortiss GmbH, is analyzing the possibility of extending the DSE phase of embedded system engineering with different safety metrics and resource constraints identified in ISO 26262, and to come up with a MOO approach that leads to pareto-optimal deployments. The real-world relevance of the results will be evaluated through implementation in the SAFE-E research project (www.safe-project.eu), which aims at bringing solutions to demonstrate compliance of ISO 26262 functional safety standard for developing safe automotive applications based on AUTOSAR architecture.\\
+
+The hardware architectures used in safety critical embedded systems needs high reliability that may be affected due to random hardware failures occurring unpredictably during the lifetime of the electrical system. Such failures are difficult to explain and are often attributed to ageing effects. Hence one of the task is to integrate Hardware Reliablilty Metrics as a new criteria into existing DSE approach of AUTOFOCUS3.\\
+
+The deployments can be made more realistic by taking into account various resource constraints associated with the technical architecture such as memory per node, power consumption, cost of hardware architecture, etc. Hence, the next task is to identify and integrate various resource constraints as new criteria into the DSE approach of AUTOFOCUS3.\\ 
+
+Different safety requirements of hardware elements enforces disparate requirement stringencies and consequently different development costs. The final task of this thesis is to evaluate and compare several DSE optimization methods that optimizes multiple objectives and yield pareto-optimal deployments.  
 
 
 

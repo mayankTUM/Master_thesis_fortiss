@@ -24,25 +24,41 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {2.3}AUTOFOCUS3}{4}{section.2.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.4}Deployment and scheduling in AF3}{4}{section.2.4}
+\contentsline {subsection}{\numberline {2.3.1}Deployment and scheduling in AF3}{4}{subsection.2.3.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.5}Z3 Solver}{4}{section.2.5}
+\contentsline {section}{\numberline {2.4}Z3 Solver used in AF3}{4}{section.2.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.6}UNSAT Cores}{4}{section.2.6}
+\contentsline {section}{\numberline {2.5}Multi-objective optimization}{4}{section.2.5}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {2.6}Pareto-efficiency}{4}{section.2.6}
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {3}Purpose Of The Work}{5}{chapter.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {4}DSE Of Safety Metrics And Resource Constraints}{6}{chapter.4}
+\contentsline {chapter}{\numberline {4}Phase I : DSE Of Safety Metrics And Resource Constraints}{6}{chapter.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.1}Safety Constraints}{6}{section.4.1}
+\contentsline {section}{\numberline {4.1}Motivation}{6}{section.4.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.2}Resource Constraints}{6}{section.4.2}
+\contentsline {section}{\numberline {4.2}Safety Constraints}{6}{section.4.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.3}Cost Constraints}{6}{section.4.3}
+\contentsline {section}{\numberline {4.3}Resource Constraints}{6}{section.4.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {5}SAFE Compliant Technical Architecture Generation}{7}{chapter.5}
+\contentsline {section}{\numberline {4.4}Cost Constraints}{6}{section.4.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {4.5}Memory Constraint}{6}{section.4.5}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {4.6}Power Constraint}{6}{section.4.6}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {4.7}Node usage Constraint}{6}{section.4.7}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {4.8}Integration into AF3}{6}{section.4.8}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {5}Phase II: Pareto-Optimal Technical Architecture Generation}{7}{chapter.5}
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {6}Case Study And Results}{8}{chapter.6}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {6.1}Phase I Results}{8}{section.6.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {6.2}Phase II Results}{8}{section.6.2}
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {7}Conclusion}{9}{chapter.7}
 \defcounter {refsection}{0}\relax 

@@ -5,29 +5,34 @@
 \BOOKMARK [1][-]{section.1.2}{Problem Statement}{chapter.1}% 5
 \BOOKMARK [1][-]{section.1.3}{Description of the work}{chapter.1}% 6
 \BOOKMARK [1][-]{section.1.4}{Limitations}{chapter.1}% 7
-\BOOKMARK [0][-]{chapter.2}{Theoretical Background}{}% 8
-\BOOKMARK [1][-]{section.2.1}{ISO 26262}{chapter.2}% 9
-\BOOKMARK [1][-]{section.2.2}{SAFE - ITEA}{chapter.2}% 10
-\BOOKMARK [1][-]{section.2.3}{AUTOFOCUS3}{chapter.2}% 11
-\BOOKMARK [2][-]{subsection.2.3.1}{Deployment and scheduling in AF3}{section.2.3}% 12
-\BOOKMARK [1][-]{section.2.4}{Z3 Solver used in AF3}{chapter.2}% 13
-\BOOKMARK [1][-]{section.2.5}{Multi-objective optimization}{chapter.2}% 14
-\BOOKMARK [1][-]{section.2.6}{Pareto-efficiency}{chapter.2}% 15
-\BOOKMARK [0][-]{chapter.3}{Purpose Of The Work}{}% 16
-\BOOKMARK [0][-]{chapter.4}{Phase I : DSE Of Safety Metrics And Resource Constraints}{}% 17
-\BOOKMARK [1][-]{section.4.1}{Motivation}{chapter.4}% 18
-\BOOKMARK [1][-]{section.4.2}{Safety Constraints}{chapter.4}% 19
-\BOOKMARK [1][-]{section.4.3}{Resource Constraints}{chapter.4}% 20
-\BOOKMARK [1][-]{section.4.4}{Cost Constraints}{chapter.4}% 21
-\BOOKMARK [1][-]{section.4.5}{Memory Constraint}{chapter.4}% 22
-\BOOKMARK [1][-]{section.4.6}{Power Constraint}{chapter.4}% 23
-\BOOKMARK [1][-]{section.4.7}{Node usage Constraint}{chapter.4}% 24
-\BOOKMARK [1][-]{section.4.8}{Integration into AF3}{chapter.4}% 25
-\BOOKMARK [0][-]{chapter.5}{Phase II: Pareto-Optimal Technical Architecture Generation}{}% 26
-\BOOKMARK [0][-]{chapter.6}{Case Study And Results}{}% 27
-\BOOKMARK [1][-]{section.6.1}{Phase I Results}{chapter.6}% 28
-\BOOKMARK [1][-]{section.6.2}{Phase II Results}{chapter.6}% 29
-\BOOKMARK [0][-]{chapter.7}{Conclusion}{}% 30
-\BOOKMARK [0][-]{chapter.8}{Future Improvements}{}% 31
-\BOOKMARK [0][-]{appendix*.3}{List of Figures}{}% 32
-\BOOKMARK [0][-]{appendix*.4}{List of Tables}{}% 33
+\BOOKMARK [1][-]{section.1.5}{Organization of thesis}{chapter.1}% 8
+\BOOKMARK [0][-]{chapter.2}{Theoretical Background}{}% 9
+\BOOKMARK [1][-]{section.2.1}{ISO 26262}{chapter.2}% 10
+\BOOKMARK [1][-]{section.2.2}{SAFE - ITEA}{chapter.2}% 11
+\BOOKMARK [1][-]{section.2.3}{AUTOFOCUS3}{chapter.2}% 12
+\BOOKMARK [2][-]{subsection.2.3.1}{Deployment and scheduling in AF3}{section.2.3}% 13
+\BOOKMARK [2][-]{subsection.2.3.2}{Technical Architecture Generation}{section.2.3}% 14
+\BOOKMARK [1][-]{section.2.4}{Multi-objective optimization}{chapter.2}% 15
+\BOOKMARK [1][-]{section.2.5}{Pareto-efficiency}{chapter.2}% 16
+\BOOKMARK [1][-]{section.2.6}{SMT Solver}{chapter.2}% 17
+\BOOKMARK [0][-]{chapter.3}{Purpose Of The Work}{}% 18
+\BOOKMARK [0][-]{chapter.4}{Phase I : DSE Of Safety Metrics And Resource Constraints}{}% 19
+\BOOKMARK [1][-]{section.4.1}{Safety metrics and deployment constraints}{chapter.4}% 20
+\BOOKMARK [2][-]{subsection.4.1.1}{PMHF Constraints}{section.4.1}% 21
+\BOOKMARK [2][-]{subsection.4.1.2}{Resource Constraints}{section.4.1}% 22
+\BOOKMARK [2][-]{subsection.4.1.3}{Cost Constraints}{section.4.1}% 23
+\BOOKMARK [2][-]{subsection.4.1.4}{Memory Constraint}{section.4.1}% 24
+\BOOKMARK [2][-]{subsection.4.1.5}{Power Constraint}{section.4.1}% 25
+\BOOKMARK [2][-]{subsection.4.1.6}{Node usage Constraint}{section.4.1}% 26
+\BOOKMARK [1][-]{section.4.2}{Integration into AF3}{chapter.4}% 27
+\BOOKMARK [0][-]{chapter.5}{Phase II: Pareto-Optimal Technical Architecture Generation}{}% 28
+\BOOKMARK [1][-]{section.5.1}{A new MOO Algorithms}{chapter.5}% 29
+\BOOKMARK [1][-]{section.5.2}{Comparison of algorithms}{chapter.5}% 30
+\BOOKMARK [1][-]{section.5.3}{Integration into AF3}{chapter.5}% 31
+\BOOKMARK [0][-]{chapter.6}{Case Study And Results}{}% 32
+\BOOKMARK [1][-]{section.6.1}{Phase I Results}{chapter.6}% 33
+\BOOKMARK [1][-]{section.6.2}{Phase II Results}{chapter.6}% 34
+\BOOKMARK [0][-]{chapter.7}{Conclusion}{}% 35
+\BOOKMARK [0][-]{chapter.8}{Future Improvements}{}% 36
+\BOOKMARK [0][-]{appendix*.3}{List of Figures}{}% 37
+\BOOKMARK [0][-]{appendix*.4}{List of Tables}{}% 38
